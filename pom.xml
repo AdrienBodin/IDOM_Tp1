@@ -111,6 +111,14 @@
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.14.0</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-changelog-plugin</artifactId> 
+            </plugin>
 		</plugins>
 	</reporting>
+    <scm>
+        <connection>scm:git:git://github.com/AdrienBodin/IDOM_Tp1</connection>
+        <url>https://github.com/AdrienBodin/IDOM_Tp1/</url>
+    </scm>
 </project>
